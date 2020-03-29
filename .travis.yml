@@ -6,6 +6,7 @@ install:
 # Build the website
 script:
   - ./bin/hugo -d docs
+  - echo duino.app > docs/CNAME
 
 # Deploy to GitHub pages
 deploy:
