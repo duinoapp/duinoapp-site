@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/images/overlay.jpg");
+}
+
+.avatar img {
+    background-color: #ffffff;
+}
+
+.icons li a:before{
+    font-family:"Font Awesome 5 Brands"!important;
+}
